@@ -32,3 +32,9 @@ font-weight: 900;
 .paragraph{font-size: 36px;
 color: #1f2937;
 font-weight: 300;}
+
+.card{color: #f9faf8;
+background-color: gray;
+text-align: center;
+/* might need justify content as well */
+}
