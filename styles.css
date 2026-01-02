@@ -37,8 +37,6 @@ font-weight: 300;}
 .card{color: #f9faf8;
 background-color: gray;
 text-align: center;
-align-items: center;
-display: flex;
 padding: 60px;
 }
 
@@ -54,6 +52,7 @@ padding: 10px 50px;
 .bigcon{display: flex;
     justify-content:space-around;
     padding: 60px;
+    align-items: center;
 }
 
 .smallcon{display: flex;
