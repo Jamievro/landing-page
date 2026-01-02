@@ -5,6 +5,7 @@ body{font-family: 'Roboto', sans-serif ;}
 .hero{font-size: 48px;
 color: #f9faf8;
 font-weight: 900;
+margin: 0;
 }
 
 .hero2 , .links{font-size: 18px;
@@ -16,10 +17,10 @@ color: #f9faf8;}
 .button{background-color: #3882f6;
 color: #f9faf8;
 padding: 10px 20px;
-/* margin: 10px 20px; */
 border: none;
 border-radius: 5px;
 text-align: center;
+margin: 0px;
 }
 
 .info{font-size: 36px;
@@ -36,5 +37,27 @@ font-weight: 300;}
 .card{color: #f9faf8;
 background-color: gray;
 text-align: center;
-/* might need justify content as well */
+align-items: center;
+display: flex;
+padding: 60px;
 }
+
+.links{display: flex;
+gap: 14px;}
+
+.header{display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 10px 50px;
+}
+
+.bigcon{display: flex;
+    justify-content:space-around;
+    padding: 60px;
+}
+
+.smallcon{display: flex;
+flex-direction: column;
+align-items: start;
+}
+
