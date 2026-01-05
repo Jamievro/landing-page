@@ -91,3 +91,21 @@ padding: 50px;
 }
 
 .Quoter{padding-left: 500px;}
+
+.part4{padding: 100px 200px;}
+
+.button4{display: flex;
+margin: 36px;
+align-items: center;
+justify-content: space-around;
+}
+
+.text4{text-align: start;}
+
+.signup{border-radius: 5px;
+border:#e5e7eb;
+border-style:solid;
+padding: 0px 40px;
+margin: 0px;
+/* fix margin on button */
+}
