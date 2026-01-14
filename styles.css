@@ -92,10 +92,11 @@ padding: 50px;
 
 .Quoter{padding-left: 500px;}
 
-.part4{padding: 100px 200px;}
+.part4{padding: 100px 200px;
+flex-wrap: wrap;}
 
 .button4{display: flex;
-margin: 36px;
+margin: 24px;
 align-items: center;
 justify-content: space-around;
 }
@@ -109,3 +110,8 @@ padding: 0px 40px;
 margin: 0px;
 /* fix margin on button */
 }
+
+.footer{display: flex;
+color: #f9faf8;
+justify-content:center;
+padding: 20px;}
